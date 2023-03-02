@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.header {
+  list-style-type: none;
+  display: flex;
+  padding: 12px;
+  text-align: justify;
+}
+
+  ul {
+    list-style-type: none;
+  }
+
+  h2 {
+    margin: 20px;
+  }
+
+  .pentalingual {
+    list-style-type: none;
+    padding: 2px;
+  }
+
+.English {
+  padding: 20px;
+}
+
+.French {
+  padding: 20px;
+}
+
+.Chinese {
+  padding: 20px;
+}
+
+.Spanish {
+  padding: 20px;
+}
+
+.Italian {
+  padding: 20px;
+}
+
+.phone {
+  padding: 20px;
+}
+
+.email {
+  padding: 20px;
+}
+
+.github {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.linkedin {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  li {
+    padding: 0px 0px;
+  }
+
+  .heading {
+    padding: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(178, 196, 255);
+  }
+
+  .footer {
+    padding: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(176, 255, 254);
+  }
+
+
+/* ------------------------------ NAV BAR BELOW --------------------------------------- */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #001f90;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
