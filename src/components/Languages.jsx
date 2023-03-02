@@ -6,14 +6,18 @@ function Languages() {
       <h2>Languages Spoken</h2>
       <ul className="pentalingual">
         <div className="English">
-          <li>English</li>
+          <li>
+            <strong>English</strong>
+          </li>
           <p>
             English is my mother tongue, due to this it is my strongest
             language.
           </p>
         </div>
         <div className="French">
-          <li>French</li>
+          <li>
+            <strong>French</strong>
+          </li>
           <p>
             I am fluent in French, both written and spoken. I have studied it
             since I was 11 years old. In 2019 I lived in France for 6 months: in
@@ -25,7 +29,9 @@ function Languages() {
           </p>
         </div>
         <div className="Chinese">
-          <li>Chinese (Mandarin)</li>
+          <li>
+            <strong>Chinese (Mandarin)</strong>
+          </li>
           <p>
             I am proficient in Mandarin, both written and spoken. While studying
             a Bachelor of Arts Degree at the University of Auckland,
@@ -36,7 +42,9 @@ function Languages() {
           </p>
         </div>
         <div className="Spanish">
-          <li>Spanish</li>
+          <li>
+            <strong>Spanish</strong>
+          </li>
           <p>
             I am proficient in Spanish. While studying a Bachelor of Arts Degree
             at the University of Auckland, I added Spanish papers to my
@@ -46,7 +54,9 @@ function Languages() {
           </p>
         </div>
         <div className="Italian">
-          <li>Italian</li>
+          <li>
+            <strong>Italian</strong>
+          </li>
           <p>
             I am able to read, and understand Italian. While studying a Bachelor
             of Arts Degree at the University of Auckland, I added an Italian

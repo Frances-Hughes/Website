@@ -27,6 +27,16 @@ function Nav() {
             <li>
               <Link to="/contact">Contact Me</Link>
             </li>
+            <li>
+              <Link to="https://github.com/Frances-Hughes">
+                My Github Profile
+              </Link>
+            </li>
+            <li className="linkedin">
+              <Link to="https://www.linkedin.com/in/frances-l-hughes/">
+                My LinkedIn
+              </Link>
+            </li>
           </ul>
         </div>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
