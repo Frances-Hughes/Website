@@ -16,7 +16,9 @@ function Languages() {
         </div>
         <div className="French">
           <li>
-            <strong>French</strong>
+            <strong>
+              <abbr title="Je parle couramment le français">French</abbr>
+            </strong>
           </li>
           <p>
             I am fluent in French, both written and spoken. I have studied it
@@ -30,7 +32,12 @@ function Languages() {
         </div>
         <div className="Chinese">
           <li>
-            <strong>Chinese (Mandarin)</strong>
+            <strong>
+              {' '}
+              <abbr title="我会说中文。 我会写, 我也会理解。 我拥有文学士学位。。 当我在奥克兰大学的时候, ">
+                Chinese (Mandarin)
+              </abbr>
+            </strong>
           </li>
           <p>
             I am proficient in Mandarin, both written and spoken. While studying

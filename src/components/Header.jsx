@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header = () => {
+function Header() {
   return (
     <>
-      <div className="heading"></div>
+      <section></section>
     </>
   );
-};
+}
 
 export default Header;
