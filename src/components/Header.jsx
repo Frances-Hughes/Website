@@ -3,7 +3,11 @@ import React from 'react';
 function Header() {
   return (
     <>
-      <section></section>
+      <section className="nr-1">
+        <div className="box">
+          <img src="../../1.jpg" />
+        </div>
+      </section>
     </>
   );
 }

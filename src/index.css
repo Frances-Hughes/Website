@@ -125,9 +125,9 @@ code {
 }
 
 :root {
-	--mainColor: #269aff;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #111111;
+	--mainColor: #050505;
+	--mainColorLight: #ffffff;
+	--secondaryColor: #22e9e2;
 	--textColor: #eee;
 }
 
@@ -217,4 +217,16 @@ nav {
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
+}
+
+
+/* .box {
+  box-shadow: rgba(0,0, 0, 0.403) 0px 10px 20px;
+  padding: 2rem;
+  border-radius: 2rem;
+  background:white;
+} */
+
+img {
+  width: 100%;
 }
