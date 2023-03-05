@@ -14,28 +14,27 @@ function Nav() {
 
   return (
     <header>
-      <h3>Frances Hughes</h3>
+      <h3>Frances Hughes (She/her)</h3>
       <nav ref={navRef}>
         <div className="nav-bar">
           <ul className="nav">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">About Me</Link>
+            </li>
+            <li className="cv">
+              <Link to="/cv">My CV</Link>
             </li>
             <li>
-              <Link to="/languagesspoken">Languages Spoken</Link>
+              <Link to="/languagesspoken">Languages I speak</Link>
+            </li>
+            <li className="tech">
+              <Link to="/tech">Tech I've learned</Link>
             </li>
             <li>
               <Link to="/contact">Contact Me</Link>
             </li>
             <li>
-              <Link to="https://github.com/Frances-Hughes">
-                My Github Profile
-              </Link>
-            </li>
-            <li className="linkedin">
-              <Link to="https://www.linkedin.com/in/frances-l-hughes/">
-                My LinkedIn
-              </Link>
+              <Link to="/hobbies">Hobbies</Link>
             </li>
           </ul>
         </div>
@@ -49,23 +48,5 @@ function Nav() {
     </header>
   );
 }
-
-// function Nav() {
-//   return (
-// <div className="nav-bar">
-//   <ul>
-//     <li>
-//       <Link to="/home">Home</Link>
-//     </li>
-//     <li>
-//       <Link to="/languagesspoken">Languages Spoken</Link>
-//     </li>
-//     <li>
-//       <Link to="/contact">Contact</Link>
-//     </li>
-//   </ul>
-// </div>
-//   );
-// }
 
 export default Nav;
